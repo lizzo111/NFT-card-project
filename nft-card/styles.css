@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  background-color: #0d192c;
+  font-family: "Outfit", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nft-container {
+  background-color: #15263f;
+  border-radius: 15px;
+  width: 350px;
+  height: 596px;
+  padding: 24px;
+  box-sizing: border-box;
+}
+
+.equilibrium {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.equilibrium:hover {
+  cursor: pointer;
+
+  opacity: 0.503;
+}
+
+h1 {
+  color: var(--White, #fff);
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 24px;
+}
+
+h1:hover {
+  color: #00fff8;
+  cursor: pointer;
+  transition: 0.18s;
+}
+
+.description {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 26px;
+  color: #8bacd9;
+  margin-top: 16px;
+}
+
+.second-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+.ethereum {
+  color: #00fff8;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.time-left {
+  color: #8bacd9;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.ethereum-conatiner {
+  display: flex;
+  gap: 6.48px;
+}
+
+.time-container {
+  display: flex;
+  gap: 7.7px;
+}
+
+.profile-picture {
+  width: 33px;
+  height: 33px;
+  border-radius: 33px;
+  border: 1px solid #fff;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.username {
+  color: #8bacd9;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.user-profile span {
+  color: #fff;
+}
+
+.user-profile span:hover {
+  color: #00fff8;
+  cursor: pointer;
+  transition: 0.18s;
+}
+
+hr {
+  border: none;
+  width: 302px;
+  height: 1px;
+  background: #2e405a;
+  margin-top: 24px;
+}
